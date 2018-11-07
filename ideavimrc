@@ -1,0 +1,31 @@
+" 默认ideavim不开启，需要在ideavim中加入这行,和vim插件surround一样支持 cs ys ds 等操作
+set surround 
+" 默认ideavim不开启，加入后可以实现vim-multiple-cursors的操作
+" alt-n 选择光标所在匹配项，重复按多选
+" alt-x 重复按跳过，不选择，配合alt-n使用
+" alt-p 撤销选中
+set multiple-cursors 
+" set ignorecase 忽略大小写
+set ic
+" 高亮匹配项
+set hls
+" 设置粘贴板历史个数
+set hi=100
+" set incsearch
+set is
+" set nrformats 使用vim自带的ctrl+a
+set nf
+" set number
+set nu
+" set relativenumber 相对行号
+set rnu
+" set scroll ctrl+U ctrl+D to scroll
+set scr
+" 显示输入状态
+set smd
+" set smartcase 智能匹配
+set scs
+" set undo的历史
+set ul=100
+" 用视觉代替音效的方式提醒你
+set vb
